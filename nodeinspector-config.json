@@ -1,0 +1,11 @@
+{
+  "web-port": 8080,
+  "web-host": null,
+  "debug-port": 5858,
+  "save-live-edit": true,
+  "preload": false,
+  "hidden": ["node_modules/express", 
+			 "node_modules/passport", 
+			 "node_modules/express/lib/router"],
+  "stack-trace-limit": 50
+}

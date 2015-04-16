@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+	<head>
+		<title>xync 3</title>
+	</head>
+	<body>
+		<p>Hello world from EJS</p>
+		<% if(!isAuthenticated) { %>
+			<a href="/login">Login here</a>
+		<% } else {%>
+			Welcome <%= user.name%>
+		<% } %>
+	</body>
+</html>
